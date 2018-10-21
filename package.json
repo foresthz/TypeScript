@@ -106,7 +106,8 @@
         "gulp": "gulp",
         "jake": "jake",
         "lint": "jake lint",
-        "setup-hooks": "node scripts/link-hooks.js"
+        "setup-hooks": "node scripts/link-hooks.js",
+        "cmd":"node ./bin/tsc"
     },
     "browser": {
         "fs": false,
